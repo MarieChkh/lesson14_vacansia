@@ -1,0 +1,64 @@
+plugins {
+    id 'java'
+    id 'io.qameta.allure' version '2.12.0'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+def allureVersion = "2.21.0"
+
+allure {
+    report {
+        version.set(allureVersion)
+    }
+    adapter {
+        aspectjWeaver.set(true)
+        frameworks {
+            junit5 {
+                adapterVersion.set(allureVersion)
+            }
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation(
+
+            'io.qameta.allure:allure-selenide:2.21.0',
+            'org.aspectj:aspectjweaver:1.9.20',
+            'org.junit.jupiter:junit-jupiter:5.10.0',
+            'com.codeborne:selenide:6.19.1',
+            'com.github.javafaker:javafaker:1.0.2',
+            'com.codeborne:pdf-test:1.5.0',
+            'com.codeborne:xls-test:1.4.3',
+            'com.opencsv:opencsv:5.9',
+            'com.google.code.gson:gson:2.10.1',
+            'com.fasterxml.jackson.core:jackson-databind:2.15.0',
+            'org.slf4j:slf4j-simple:2.0.7')
+
+    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.9.0')
+}
+
+
+tasks.withType(Test) {
+    useJUnitPlatform()
+    systemProperties(System.getProperties())
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
+        }
+    }
+}
+
+task ifellow_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("ifellow")
+    }
+}
