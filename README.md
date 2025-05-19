@@ -1,4 +1,4 @@
-<a href="https://ifellow.ru/"><img src="media/logoif.png" width="175" height="52"></a>
+<a href="https://ifellow.ru/"><img src="media/logoif.PNG" width="175" height="52"></a>
 
 <h1 >Демопроект по автоматизации тестирования для <a href="https://ifellow.ru/">iFellow</a></h1>
 
