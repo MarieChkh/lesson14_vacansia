@@ -1,9 +1,9 @@
 {
   "base": {
-    "project": "Project demoqa",
+    "project": "Project ifellow",
     "environment": "test",
     "comment": "comment here @mnch30",
-    "reportLink": "https://jenkins.autotests.cloud/job/demoqa_tests_properties_tg/1/allure/",
+    "reportLink": "https://jenkins.autotests.cloud/job/vacansia_tests/1/allure/",
     "language": "en",
     "allureFolder": "allure-report",
     "enableChart": true

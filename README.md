@@ -32,7 +32,7 @@
 
 
 <p align="center">  
-<img src="media/screen/Jenkins.png" alt="Jenkins" width="950"/></a>  
+<img src="media/jenkinssborka.PNG" alt="Jenkins" width="950"/></a>  
 </p>
 
 
@@ -57,10 +57,10 @@ gradle clean ifellow_test
 ```bash  
 clean
 ifellow_test
--Dbrowser=${BROWSER}
--Dbrowser_version=${BROWSER_VERSION}
--Dbrowser_size=${BROWSER_SIZE}
--Dbrowser_remote="https://user1:1234@${BROWSER_REMOTE}/wd/hub"
+-Dbrowser=${browser} 
+-DbrowserVersion=${browserVersion} 
+-DremoteUrl="https://user1:1234@${remoteUrl}/wd/hub" 
+-DbrowserSize=${browserSize}
 ```
 
 ## <img alt="Allure" height="25" src="media/Allure.svg" width="25"/></a>  <a name="Allure"></a>Allure Report	</a>
@@ -69,25 +69,25 @@ ifellow_test
 ## Основная страница отчёта
 
 <p align="center">  
-<img title="Allure Overview Dashboard" src="media/screen/Allure.png" width="850">  
+<img title="Allure Overview Dashboard" src="media/allurereportscreen.PNG" width="850">  
 </p>  
 
 ## Тест-кейсы
 
 <p align="center">  
-<img title="Allure Tests" src="media/screen/AllureTests.png" width="850">  
+<img title="Allure Tests" src="media/testcase.PNG" width="850">  
 </p>
 ____
 
 ## <img alt="Allure" height="25" src="media/Telegram.svg" width="25"/></a> Уведомление в Telegram при помощи бота
 ____
 <p align="center">  
-<img title="Allure Overview Dashboard" src="media/screen/Telegram.png" width="550">  
+<img title="Allure Overview Dashboard" src="media/telegramscreen.PNG" width="550">  
 </p>
 
 ____
 ## <img alt="Selenoid" height="25" src="media/Selenoid.svg" width="25"/></a> Примеры видео выполнения тестов на Selenoid
 ____
 <p align="center">
-<img title="SelenoidVideo" src="media/screen/gif/SelenoidVideo.gif" width="550" height="350"  alt="video">   
+<img title="SelenoidVideo" src="media/videotest.gif" width="550" height="350"  alt="video">   
 </p>
