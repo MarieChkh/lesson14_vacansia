@@ -89,5 +89,5 @@ ____
 ## <img alt="Selenoid" height="25" src="media/Selenoid.svg" width="25"/></a> Примеры видео выполнения тестов на Selenoid
 ____
 <p align="center">
-<img title="SelenoidVideo" src="media/videotest.gif" width="550" height="350"  alt="video">   
+<img title="Selenoid Video" src="media/videotest.gif" width="550" height="350"  alt="video">   
 </p>

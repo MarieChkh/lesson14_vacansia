@@ -25,10 +25,6 @@ public class MainPage {
         $("a[href='/partners/']").click();
     }
 
-    public void checkPageHeader(String expectedHeaderText) {
-        $("h1").shouldHave(text(expectedHeaderText));
-    }
-
     public void checkTitle(String expectedTitle) {
         title().equals(expectedTitle);
     }

@@ -3,13 +3,17 @@ package test.vakansia;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Tag;
-import pages.MainPage;
+import pages.*;
 
 import static io.qameta.allure.Allure.step;
 
 public class PrimaryTests extends BaseTest {
 
     MainPage mainPage = new MainPage();
+    AboutCompanyPage aboutCompanyPage = new AboutCompanyPage();
+    CarrerPage carrerPage = new CarrerPage();
+    PartnersPage partnersPage = new PartnersPage();
+    ProductsPage productsPage = new ProductsPage();
 
     @Test
     @DisplayName("Проверка заголовка страницы")
@@ -25,7 +29,7 @@ public class PrimaryTests extends BaseTest {
     void goToAboutPageTest() {
         step("Открыть главную страницу", () -> mainPage.openMainPage());
         step("Нажать на пункт меню 'О компании'", () -> mainPage.goToAboutPage());
-        step("Проверить заголовок страницы 'О компании'", () -> mainPage.checkPageHeader("О компании"));
+        step("Проверить заголовок страницы 'О компании'", () -> aboutCompanyPage.checkPageHeader("О компании"));
     }
 
     @Test
@@ -34,7 +38,7 @@ public class PrimaryTests extends BaseTest {
     void goToTeamPageTest() {
         step("Открыть главную страницу", () -> mainPage.openMainPage());
         step("Нажать на пункт меню 'Продукты'", () -> mainPage.goToProductsPage());
-        step("Проверить заголовок страницы 'Продукты'", () -> mainPage.checkPageHeader("Продукты"));
+        step("Проверить заголовок страницы 'Продукты'", () -> productsPage.checkPageHeader("Продукты"));
     }
 
     @Test
@@ -43,7 +47,7 @@ public class PrimaryTests extends BaseTest {
     void goToProjectsPageTest() {
         step("Открыть главную страницу", () -> mainPage.openMainPage());
         step("Нажать на пункт меню 'Карьера'", () -> mainPage.goToCarrerPage());
-        step("Проверить заголовок страницы 'Карьера'", () -> mainPage.checkPageHeader("Карьера"));
+        step("Проверить заголовок страницы 'Карьера'", () -> carrerPage.checkPageHeader("Карьера"));
     }
 
     @Test
@@ -52,6 +56,6 @@ public class PrimaryTests extends BaseTest {
     void goToContactsPageTest() {
         step("Открыть главную страницу", () -> mainPage.openMainPage());
         step("Нажать на пункт меню 'Партнеры'", () -> mainPage.goToPartnersPage());
-        step("Проверить заголовок страницы 'Партнеры'", () -> mainPage.checkPageHeader("Партнеры"));
+        step("Проверить заголовок страницы 'Партнеры'", () -> partnersPage.checkPageHeader("Партнеры"));
     }
 }

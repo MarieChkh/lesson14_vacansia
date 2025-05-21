@@ -19,7 +19,7 @@ public class BaseTest {
     static void setupConfig() {
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("browser_version", "127.0");
-        Configuration.browserSize = System.getProperty("screen_resolution", "1920x1080");
+        Configuration.browserSize = System.getProperty("browser_size", "1920x1080");
         Configuration.remote = System.getProperty("remoteUrl");
         Configuration.baseUrl = "https://ifellow.ru/";
         Configuration.pageLoadStrategy = "eager";
