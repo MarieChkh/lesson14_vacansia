@@ -1,4 +1,4 @@
-<a href="https://ifellow.ru/"><img src="media/logoif.PNG" width="175" height="52"></a>
+<a href="https://ifellow.ru/"><img height="52" src="media/logoif.PNG" width="175"/></a>
 
 <h1 >Демопроект по автоматизации тестирования для <a href="https://ifellow.ru/">iFellow</a></h1>
 
@@ -16,11 +16,22 @@
 <a id="tools"></a>
 ## :ballot_box_with_check:Технологии и инструменты:
 
-| Java                                                                                                           | IntelliJ  <br>  Idea                                                                                         | GitHub                                                                                               | JUnit 5                                                                                                           | Gradle                                                                                                           | Selenide                                                                                                         | Selenoid                                                                                                                  | Allure <br> Report                                                                                                         |  Jenkins                                                                                                        |   Telegram
-|:---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|Allure_TO
-| <a href="https://www.java.com/"><img src="media/Java.svg" width="50" height="50"  alt="Java"/></a> | <a href="https://www.jetbrains.com/idea/"><img src="media/Idea.svg" width="50" height="50"  alt="IDEA"/></a> | <a href="https://github.com/"><img src="media/GitHub.svg" width="50" height="50"  alt="Github"/></a> | <a href="https://junit.org/junit5/"><img src="media/Junit5.svg" width="50" height="50"  alt="JUnit 5"/></a> | <a href="https://gradle.org/"><img src="media/Gradle.svg" width="50" height="50"  alt="Gradle"/></a> | <a href="https://selenide.org/"><img src="media/Selenide.svg" width="50" height="50"  alt="Selenide"/></a> | <a href="https://aerokube.com/selenoid/"><img src="media/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a> | <a href="https://github.com/allure-framework"><img src="media/Allure.svg" width="50" height="50"  alt="Allure"/></a> |<a href="https://www.jenkins.io/"><img src="media/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a> | <a href="https://web.telegram.org/"><img src="media/Telegram.svg" width="50" height="50" alt="Telegram"/></a> |<a href="https://qameta.io/"><img src="images\logo\Allure_TO.svg" width="50" height="50" alt="Allure_TO"/></a> |
+## Технологии и инструменты
+<p>
+  <a href="https://www.jetbrains.com/idea/"><img alt="IntelliJ IDEA" src="media/Idea.svg" width="50" height="50"></a>
+  <a href="https://github.com/"><img alt="GitHub" src="media/GitHub.svg" width="50" height="50"></a>
+  <a href="https://www.java.com/"><img alt="Java" src="media/Java.svg" width="50" height="50"></a>
+  <a href="https://gradle.org/"><img alt="Gradle" src="media/Gradle.svg" width="50" height="50"></a>
+  <a href="https://junit.org/junit5/"><img alt="JUnit 5" src="media/Junit5.svg" width="50" height="50"></a>
+  <a href="https://selenide.org/"><img alt="Selenide" src="media/Selenide.svg" width="50" height="50"></a>
+  <a href="https://aerokube.com/selenoid/"><img alt="Selenoid" src="media/Selenoid.svg" width="50" height="50"></a>
+  <a href="https://www.jenkins.io/"><img alt="Jenkins" src="media/Jenkins.svg" width="50" height="50"></a>
+  <a href="https://github.com/allure-framework/"><img alt="Allure Report" src="media/Allure.svg" width="50" height="50"></a>
+  <a href="https://qameta.io/"><img alt="Allure TestOps" src="media/Allure_TO.svg" width="50" height="50"></a>
+  <a href="https://telegram.org/"><img alt="Telegram" src="media/Telegram.svg" width="50" height="50"></a>
+</p>
 
-<a id="cases"></a>
+
 ## :ballot_box_with_check:Реализованные проверки:
 
 - Проверка заголовка главной страницы
@@ -80,7 +91,7 @@ ifellow_test
 </p>
 ____
 
-## <img alt="Allure" height="25" src="media/Allire_TO.svg" width="25"/></a> Allure-testops
+## <img alt="Allure" height="25" src="media/Allure_TO.svg" width="25"/></a> Allure-testops
 На Dashboard в Allure TestOps удобно отслеживать статистику по тестам: сколько добавлено, какие ручные, а какие автоматизированы. Платформа позволяет легко запускать нужные тесты, анализировать результаты и управлять тестированием в одном месте — это значительно упрощает работу команды и повышает её эффективность.
 ____
 <p align="center">  
