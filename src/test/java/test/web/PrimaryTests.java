@@ -1,4 +1,4 @@
-package test.vakansia;
+package test.web;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -58,4 +58,5 @@ public class PrimaryTests extends BaseTest {
         step("Нажать на пункт меню 'Партнеры'", () -> mainPage.goToPartnersPage());
         step("Проверить заголовок страницы 'Партнеры'", () -> partnersPage.checkPageHeader("Партнеры"));
     }
+    
 }

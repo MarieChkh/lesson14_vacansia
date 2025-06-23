@@ -1,4 +1,4 @@
-package test.vakansia;
+package test.web;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;

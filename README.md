@@ -8,6 +8,7 @@
 - Список проверок, реализованных в тестах
 - Запуск тестов (сборка в Jenkins) и из терминала
 - Allure-отчет
+- Allure-testops
 - Уведомление в Telegram о результатах прогона тестов
 - Видео пример прохождения тестов
 
@@ -16,7 +17,7 @@
 ## :ballot_box_with_check:Технологии и инструменты:
 
 | Java                                                                                                           | IntelliJ  <br>  Idea                                                                                         | GitHub                                                                                               | JUnit 5                                                                                                           | Gradle                                                                                                           | Selenide                                                                                                         | Selenoid                                                                                                                  | Allure <br> Report                                                                                                         |  Jenkins                                                                                                        |   Telegram
-|:---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+|:---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|Allure_TO
 | <a href="https://www.java.com/"><img src="media/Java.svg" width="50" height="50"  alt="Java"/></a> | <a href="https://www.jetbrains.com/idea/"><img src="media/Idea.svg" width="50" height="50"  alt="IDEA"/></a> | <a href="https://github.com/"><img src="media/GitHub.svg" width="50" height="50"  alt="Github"/></a> | <a href="https://junit.org/junit5/"><img src="media/Junit5.svg" width="50" height="50"  alt="JUnit 5"/></a> | <a href="https://gradle.org/"><img src="media/Gradle.svg" width="50" height="50"  alt="Gradle"/></a> | <a href="https://selenide.org/"><img src="media/Selenide.svg" width="50" height="50"  alt="Selenide"/></a> | <a href="https://aerokube.com/selenoid/"><img src="media/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a> | <a href="https://github.com/allure-framework"><img src="media/Allure.svg" width="50" height="50"  alt="Allure"/></a> |<a href="https://www.jenkins.io/"><img src="media/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a> | <a href="https://web.telegram.org/"><img src="media/Telegram.svg" width="50" height="50" alt="Telegram"/></a> |<a href="https://qameta.io/"><img src="images\logo\Allure_TO.svg" width="50" height="50" alt="Allure_TO"/></a> |
 
 <a id="cases"></a>
@@ -32,7 +33,7 @@
 
 
 <p align="center">  
-<img src="media/jenkinssborka.PNG" alt="Jenkins" width="950"/></a>  
+<img src="media/screenshorts/jenkinssborka.PNG" alt="Jenkins" width="950"/></a>  
 </p>
 
 
@@ -69,25 +70,34 @@ ifellow_test
 ## Основная страница отчёта
 
 <p align="center">  
-<img title="Allure Overview Dashboard" src="media/allurereportscreen.PNG" width="850">  
+<img title="Allure Overview Dashboard" src="media/screenshorts/allurereportscreen.PNG" width="850">  
 </p>  
 
 ## Тест-кейсы
 
 <p align="center">  
-<img title="Allure Tests" src="media/testcase.PNG" width="850">  
+<img title="Allure Tests" src="media/screenshorts/testcase.PNG" width="850">  
 </p>
+____
+
+## <img alt="Allure" height="25" src="media/Allire_TO.svg" width="25"/></a> Allure-testops
+На Dashboard в Allure TestOps удобно отслеживать статистику по тестам: сколько добавлено, какие ручные, а какие автоматизированы. Платформа позволяет легко запускать нужные тесты, анализировать результаты и управлять тестированием в одном месте — это значительно упрощает работу команды и повышает её эффективность.
+____
+<p align="center">  
+<img title="Allure Overview Dashboard" src="media/screenshorts/allureToscreen.PNG" width="550">  
+</p>
+
 ____
 
 ## <img alt="Allure" height="25" src="media/Telegram.svg" width="25"/></a> Уведомление в Telegram при помощи бота
 ____
 <p align="center">  
-<img title="Allure Overview Dashboard" src="media/telegramscreen.PNG" width="550">  
+<img title="Allure Overview Dashboard" src="media/screenshorts/telegramscreen.PNG" width="550">  
 </p>
 
 ____
 ## <img alt="Selenoid" height="25" src="media/Selenoid.svg" width="25"/></a> Примеры видео выполнения тестов на Selenoid
 ____
 <p align="center">
-<img title="Selenoid Video" src="media/video.gif" width="550" height="350"  alt="video">   
+<img title="Selenoid Video" src="media/video/video.gif" width="550" height="350"  alt="video">   
 </p>
