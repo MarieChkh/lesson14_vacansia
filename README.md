@@ -81,13 +81,13 @@ ifellow_test
 ## Основная страница отчёта
 
 <p align="center">  
-<img title="Allure Overview Dashboard" src="media/screenshorts/allurereportscreen.PNG" width="850">  
+<img title="Allure Overview Dashboard" src="media/screenshorts/allurereportscreen.PNG" width="550">  
 </p>  
 
 ## Тест-кейсы
 
 <p align="center">  
-<img title="Allure Tests" src="media/screenshorts/testcase.PNG" width="850">  
+<img title="Allure Tests" src="media/screenshorts/testcase.PNG" width="550">  
 </p>
 ____
 
@@ -95,7 +95,7 @@ ____
 На Dashboard в Allure TestOps удобно отслеживать статистику по тестам: сколько добавлено, какие ручные, а какие автоматизированы. Платформа позволяет легко запускать нужные тесты, анализировать результаты и управлять тестированием в одном месте — это значительно упрощает работу команды и повышает её эффективность.
 ____
 <p align="center">  
-<img title="Allure Overview Dashboard" src="media/screenshorts/allureToscreen.PNG" width="550">  
+<img title="Allure Overview Dashboard" src="media/screenshorts/allureToscreen.PNG" width="350">  
 </p>
 
 ____
@@ -103,7 +103,7 @@ ____
 ## <img alt="Allure" height="25" src="media/Telegram.svg" width="25"/></a> Уведомление в Telegram при помощи бота
 ____
 <p align="center">  
-<img title="Allure Overview Dashboard" src="media/screenshorts/telegramscreen.PNG" width="550">  
+<img title="Allure Overview Dashboard" src="media/screenshorts/telegramscreen.PNG" width="350">  
 </p>
 
 ____
