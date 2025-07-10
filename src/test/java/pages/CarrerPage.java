@@ -7,5 +7,4 @@ public class CarrerPage {
     public void checkPageHeader(String expectedHeaderText) {
         $("h1").shouldHave(text(expectedHeaderText));
     }
-
 }

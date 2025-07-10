@@ -33,11 +33,6 @@ dependencies {
             'org.aspectj:aspectjweaver:1.9.20',
             'org.junit.jupiter:junit-jupiter:5.10.0',
             'com.codeborne:selenide:6.19.1',
-            'com.github.javafaker:javafaker:1.0.2',
-            'com.codeborne:pdf-test:1.5.0',
-            'com.codeborne:xls-test:1.4.3',
-            'com.opencsv:opencsv:5.9',
-            'com.google.code.gson:gson:2.10.1',
             'com.fasterxml.jackson.core:jackson-databind:2.15.0',
             'org.slf4j:slf4j-simple:2.0.7')
 
@@ -54,11 +49,5 @@ tasks.withType(Test) {
             events "started", "skipped", "failed", "standard_error", "standard_out"
             exceptionFormat "short"
         }
-    }
-}
-
-task ifellow_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("ifellow")
     }
 }
