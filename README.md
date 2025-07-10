@@ -39,6 +39,7 @@
 - В разделе меню 'Продукты' проверяем наличие заголовка
 - В разделе меню 'Карьера' проверяем наличие заголовка
 - В разделе меню 'Партнеры' проверяем наличие заголовка
+- Поиск вакансии
 
 ## <img alt="Jenkins" height="25" src="media/Jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/vacansia_tests/)
 
@@ -59,7 +60,7 @@
 
 Локальный запуск:
 ```bash  
-gradle clean ifellow_test
+gradle clean test
 ```
 Запуск с параметрами:
 ```bash  
@@ -68,7 +69,7 @@ gradle clean ifellow_test
 Удаленный запуск через Jenkins:
 ```bash  
 clean
-ifellow_test
+test
 -Dbrowser=${browser} 
 -DbrowserVersion=${browserVersion} 
 -DremoteUrl="https://user1:1234@${remoteUrl}/wd/hub" 
