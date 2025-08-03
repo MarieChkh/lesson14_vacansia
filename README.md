@@ -70,7 +70,6 @@ gradle clean test
 ```bash  
 clean
 test
--Denv="remote"
 -Dbrowser=${browser} 
 -DbrowserVersion=${browserVersion} 
 -DremoteUrl="https://user1:1234@${remoteUrl}/wd/hub" 

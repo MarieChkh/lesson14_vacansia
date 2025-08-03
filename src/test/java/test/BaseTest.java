@@ -18,11 +18,12 @@ public class BaseTest {
 
     @BeforeAll
     static void setupConfig() {
+        Configuration.baseUrl = "https://ifellow.ru/";
         Configuration.browser = getProperty("browser", "chrome");
         Configuration.browserSize = getProperty("browserSize", "1920x1080");
         Configuration.browserVersion = getProperty("browserVersion", "128");
-        if (getProperty("env").equals("remote")) {
-                Configuration.remote = getProperty("remoteUrl", "http://localhost:4444");
+        Configuration.remote = System.getProperty("remoteUrl");
+        if (Configuration.remote != null) {
                 DesiredCapabilities capabilities = new DesiredCapabilities();
                 capabilities.setCapability("selenoid:options", Map.<String, Object>of(
                         "enableVNC", true,
@@ -42,7 +43,7 @@ public class BaseTest {
         AttachmentsUtils.screenshotAs("Screenshot");
         AttachmentsUtils.pageSource();
         AttachmentsUtils.browserConsoleLogs();
-        if (System.getProperty("env").equals("remote")) {
+        if (Configuration.remote != null) {
             AttachmentsUtils.addVideo();
         }
         closeWebDriver();
