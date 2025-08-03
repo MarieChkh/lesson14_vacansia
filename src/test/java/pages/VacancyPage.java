@@ -1,16 +1,18 @@
 package pages;
 
+import com.codeborne.selenide.SelenideElement;
+
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
 public class VacancyPage {
 
-        public void checkVacancyQA(String expectedvacancyText) {
+    private SelenideElement otklick = $("[data-path=\"vacancy\"]");
+    public void checkVacancyQA(String expectedvacancyText) {
             $("h1").shouldHave(text(expectedvacancyText));
         }
 
-    public void otklick() {
-        $("[data-path=\"vacancy\"]").click();
+    public void otklick() {otklick.click();
     }
 
 }
