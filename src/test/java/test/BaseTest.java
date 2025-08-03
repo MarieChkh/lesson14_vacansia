@@ -18,12 +18,11 @@ public class BaseTest {
 
     @BeforeAll
     static void setupConfig() {
-        Configuration.baseUrl = getProperty("baseUrl", "https://ifellow.ru/");
         Configuration.browser = getProperty("browser", "chrome");
-        Configuration.browserSize = getProperty("windowSize", "1920x1080");
-        Configuration.browserVersion = getProperty("version", "128");
+        Configuration.browserSize = getProperty("browserSize", "1920x1080");
+        Configuration.browserVersion = getProperty("browserVersion", "128");
         if (getProperty("env").equals("remote")) {
-                Configuration.remote = getProperty("remoteBrowser", "http://localhost:4444");
+                Configuration.remote = getProperty("remoteUrl", "http://localhost:4444");
                 DesiredCapabilities capabilities = new DesiredCapabilities();
                 capabilities.setCapability("selenoid:options", Map.<String, Object>of(
                         "enableVNC", true,
